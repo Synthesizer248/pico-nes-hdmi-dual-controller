@@ -20,6 +20,7 @@ This repository provides a complete starter architecture for:
 - Frame timing loop targeting 60 FPS
 - Stub renderer and emulator adapter for bring-up testing
 - HDMI reference circuit diagram and wiring notes
+- Controller reference circuit diagram and wiring notes
 - Build, hardware, and roadmap documentation
 
 ## Repository Layout
@@ -45,7 +46,8 @@ This repository provides a complete starter architecture for:
 |   `-- roadmap.md
 |-- hardware/
 |   |-- controllers/
-|   |   `-- wiring.md
+|   |   |-- wiring.md
+|   |   `-- controller_circuit_diagram.svg
 |   `-- hdmi/
 |       |-- README.md
 |       `-- hdmi_circuit_diagram.svg
@@ -59,6 +61,7 @@ This repository provides a complete starter architecture for:
 - Video output: HDMI/DVI via external RP2040-compatible DVI hardware (PicoDVI style)
 - Controllers: two custom wired remotes, each with 8 push buttons + common GND
 - HDMI reference diagram: `hardware/hdmi/hdmi_circuit_diagram.svg`
+- Controller reference diagram: `hardware/controllers/controller_circuit_diagram.svg`
 
 ## Quick Start
 

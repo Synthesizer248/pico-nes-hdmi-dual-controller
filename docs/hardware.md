@@ -26,6 +26,11 @@ Buttons are wired as active-low:
 - other side -> GND
 - internal pull-ups enabled in firmware
 
+## Controller Circuit Diagram
+
+- Reference diagram: `hardware/controllers/controller_circuit_diagram.svg`
+- Wiring details: `hardware/controllers/wiring.md`
+
 ## Default Controller GPIO Mapping
 
 | Function | Player 1 GPIO | Player 2 GPIO |
