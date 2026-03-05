@@ -45,6 +45,11 @@ Buttons are wired as active-low:
 - For real signal output, integrate PicoDVI initialization and frame scanout in `src/hdmi_video.c`.
 - Keep HDMI wiring short and follow your chosen DVI board reference design.
 
+## HDMI Circuit Diagram
+
+- Reference diagram: `hardware/hdmi/hdmi_circuit_diagram.svg`
+- Design notes: `hardware/hdmi/README.md`
+
 ## Power and Grounding
 
 - Share common GND between console and both controller remotes.

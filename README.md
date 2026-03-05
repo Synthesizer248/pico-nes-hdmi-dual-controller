@@ -19,6 +19,7 @@ This repository provides a complete starter architecture for:
 - Input sanitation (`Up+Down` and `Left+Right` conflict handling)
 - Frame timing loop targeting 60 FPS
 - Stub renderer and emulator adapter for bring-up testing
+- HDMI reference circuit diagram and wiring notes
 - Build, hardware, and roadmap documentation
 
 ## Repository Layout
@@ -42,8 +43,12 @@ This repository provides a complete starter architecture for:
 |   |-- build.md
 |   |-- hardware.md
 |   `-- roadmap.md
-|-- hardware/controllers/
-|   `-- wiring.md
+|-- hardware/
+|   |-- controllers/
+|   |   `-- wiring.md
+|   `-- hdmi/
+|       |-- README.md
+|       `-- hdmi_circuit_diagram.svg
 `-- scripts/
     `-- fetch_dependencies.ps1
 ```
@@ -53,6 +58,7 @@ This repository provides a complete starter architecture for:
 - Board: Raspberry Pi Pico (RP2040)
 - Video output: HDMI/DVI via external RP2040-compatible DVI hardware (PicoDVI style)
 - Controllers: two custom wired remotes, each with 8 push buttons + common GND
+- HDMI reference diagram: `hardware/hdmi/hdmi_circuit_diagram.svg`
 
 ## Quick Start
 
